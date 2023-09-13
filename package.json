@@ -1,0 +1,32 @@
+{
+  "name": "asp-dynamic-theme",
+  "displayName": "ASPDynamicTheme",
+  "description": "Fully customized Theme",
+  "version": "0.0.1",
+  "publisher": "ASP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/9944098125/theme.git"
+  },
+  "keywords": [
+    "themes",
+    "dark theme",
+    "asp theme",
+    "srinivas"
+  ],
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ASP THEME",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ASP THEME-color-theme.json"
+      }
+    ]
+  }
+}
